@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThreesAndFives" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R1a-Tl-JIs">
+                                <rect key="frame" x="110.5" y="161" width="30" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-EW-o7w">
+                                <rect key="frame" x="253.5" y="161" width="30" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="7" borderStyle="roundedRect" placeholder="Input Currency" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DdU-vn-bxs">
+                                <rect key="frame" x="129.5" y="265" width="117" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7I-id-yIv">
+                                <rect key="frame" x="104.5" y="121" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0B-dp-gtY">
+                                <rect key="frame" x="246" y="121" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHK-Mq-NL6">
+                                <rect key="frame" x="188" y="325" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26b-wA-O0u">
+                                <rect key="frame" x="160" y="389" width="55" height="30"/>
+                                <state key="normal" title="Validate"/>
+                                <connections>
+                                    <action selector="checkTheCurrency:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jpp-qi-eZ5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3K5-FM-Z2g">
+                                <rect key="frame" x="150.5" y="359" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEv-3T-db1">
+                                <rect key="frame" x="225" y="359" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DdU-vn-bxs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2K4-U6-FYb"/>
+                            <constraint firstItem="IEv-3T-db1" firstAttribute="top" secondItem="CHK-Mq-NL6" secondAttribute="bottom" constant="34" id="3NH-vy-iF8"/>
+                            <constraint firstItem="3K5-FM-Z2g" firstAttribute="top" secondItem="CHK-Mq-NL6" secondAttribute="bottom" constant="34" id="3bD-JN-AqU"/>
+                            <constraint firstItem="y0B-dp-gtY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="101" id="7kg-iR-1pw"/>
+                            <constraint firstItem="K7I-id-yIv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-62" id="8t8-Gh-UFv"/>
+                            <constraint firstItem="26b-wA-O0u" firstAttribute="top" secondItem="3K5-FM-Z2g" secondAttribute="bottom" constant="30" id="BMP-fz-OKd"/>
+                            <constraint firstItem="IEv-3T-db1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="37.5" id="Py2-vM-yhR"/>
+                            <constraint firstItem="26b-wA-O0u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R4e-mF-TdU"/>
+                            <constraint firstItem="lVP-EW-o7w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="81" id="YJR-vH-z2t"/>
+                            <constraint firstItem="K7I-id-yIv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="101" id="ce3-Xy-4XP"/>
+                            <constraint firstItem="R1a-Tl-JIs" firstAttribute="top" secondItem="K7I-id-yIv" secondAttribute="bottom" constant="19" id="d4c-RI-hig"/>
+                            <constraint firstItem="CHK-Mq-NL6" firstAttribute="top" secondItem="DdU-vn-bxs" secondAttribute="bottom" constant="30" id="dwh-p8-0r9"/>
+                            <constraint firstItem="CHK-Mq-NL6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gl8-Kd-9pf"/>
+                            <constraint firstItem="DdU-vn-bxs" firstAttribute="top" secondItem="lVP-EW-o7w" secondAttribute="bottom" constant="74" id="hla-sX-K6P"/>
+                            <constraint firstItem="3K5-FM-Z2g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-37.5" id="jtG-ws-uks"/>
+                            <constraint firstItem="y0B-dp-gtY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="81" id="mH5-rf-CMH"/>
+                            <constraint firstItem="lVP-EW-o7w" firstAttribute="top" secondItem="y0B-dp-gtY" secondAttribute="bottom" constant="19" id="nAL-2D-jQS"/>
+                            <constraint firstItem="R1a-Tl-JIs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-62" id="qSd-Tf-HwE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bigCoinCountLabel" destination="3K5-FM-Z2g" id="MCZ-MP-8Up"/>
+                        <outlet property="coin1TextField" destination="R1a-Tl-JIs" id="LVs-yS-1qc"/>
+                        <outlet property="coin2TextField" destination="lVP-EW-o7w" id="bHp-l7-Yox"/>
+                        <outlet property="inputCurrency" destination="DdU-vn-bxs" id="2wQ-Mu-6vq"/>
+                        <outlet property="smallCoinCountLabel" destination="IEv-3T-db1" id="aaa-lx-6HG"/>
+                        <outlet property="validInvalidLabel" destination="CHK-Mq-NL6" id="mxo-LQ-BUS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
