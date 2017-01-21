@@ -29,10 +29,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func checkTheCurrency(_ sender: Any) {
-        calculate5sAnd3s(Int(inputCurrency.text!)!)
+        calculateDenominationsofTwoCoins(Int(inputCurrency.text!)!)
     }
     
-    func calculate5sAnd3s(_ currency:Int) {
+    func calculateDenominationsofTwoCoins(_ currency:Int) {
         
         var bigCoin:Int? = Int(coin1TextField.text!)
         var smallCoin:Int? = Int(coin2TextField.text!)
